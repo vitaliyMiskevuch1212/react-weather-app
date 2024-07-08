@@ -33,7 +33,7 @@ const Search = ({ onSearchChange }) => {
         .catch(err => {
             console.error('Error fetching options:', err);
             return {
-                options: [] // Повернення порожнього масиву у разі помилки
+                options: [] 
             };
         });
     };
